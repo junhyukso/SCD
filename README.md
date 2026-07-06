@@ -27,7 +27,10 @@ This README currently documents the **Lumina-mGPT 1.0** workflow for image AR ge
 
 ### 1. Prepare Chameleon Tokenizer Files
 
-Lumina-mGPT uses Meta Chameleon's image tokenizer. Download the tokenizer files from the Chameleon release page and place them under `lumina1/ckpts/chameleon/tokenizer/`:
+
+Our model uses the image tokenizer from Meta's Chameleon. Please download the necessary files from [Meta's Chameleon homepage](https://ai.meta.com/resources/models-and-libraries/chameleon-downloads/).
+
+Place the downloaded files into the `ckpts/chameleon/tokenizer/` directory. The final folder structure should look like this:
 
 ```text
 lumina1/
