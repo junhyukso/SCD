@@ -1,0 +1,41 @@
+# Python/runtime artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+.DS_Store
+.*.swp
+*.swp
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Local environments
+.env
+.venv/
+venv/
+env/
+
+# Generated Lumina outputs
+lumina1/SCD_GS/
+lumina1/SCD_MC/
+lumina1/SJD/
+lumina1/nfe_compare/
+
+# External checkpoints and model/tokenizer weights
+lumina1/ckpts/
+**/*.ckpt
+**/*.safetensors
+**/*.pt
+**/*.pth
+**/*.bin
+
+# Hugging Face / training caches
+.cache/
+cache/
+outputs/
+output/
+checkpoints/
+checkpoint/
+wandb/
+runs/

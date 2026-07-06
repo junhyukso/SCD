@@ -1,0 +1,11 @@
+transformers==4.46.2
+timm>=0.9.16
+accelerate
+sentencepiece
+attrdict
+einops
+ml_collections
+pandas
+tensorboard
+pycocotools
+absl-py
