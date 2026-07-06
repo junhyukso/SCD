@@ -1,4 +1,4 @@
-# Speculative Coupled Decoding
+# [ICML2026] Speculative Coupled Decoding
 
 [![arXiv](https://img.shields.io/badge/arXiv-2510.24211-b31b1b.svg)](https://arxiv.org/abs/2510.24211)
 [![ICML 2026](https://img.shields.io/badge/ICML-2026-blue.svg)](https://icml.cc/)
@@ -19,7 +19,6 @@ Speculative Coupled Decoding (SCD) is a training-free decoding framework for acc
 |-- lumina1/        # SCD and SJD decoding for Lumina-mGPT 1.0 image generation
 |-- janus_pro/      # Janus-Pro code
 |-- cosmos/         # Cosmos code
-`-- cosmos_videos/  # Example Cosmos video outputs
 ```
 
 This README currently documents the **Lumina-mGPT 1.0** workflow for image AR generation. Check other folders for usage instructions for the other models.
